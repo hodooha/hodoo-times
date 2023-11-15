@@ -1,0 +1,132 @@
+.head-button i:first-child{
+    display: none;
+}
+
+.head-button:hover {
+    cursor: pointer;
+}
+
+.icon-button {
+    padding: 8px;
+    margin-top: 5px;
+}
+
+#input-area{
+    display: none;
+}
+
+#search-input{
+    border: 1px solid gray;
+}
+
+#search-button{
+    border-radius: 3px;
+    background-color: palegoldenrod;
+}
+
+.head-line {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.head-line:hover{
+    cursor: pointer;
+}
+
+.head-line svg {
+    width: 430px;
+}
+
+.menus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 4px double #000;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 1em;
+}
+
+.menus button {
+    border: none;
+    background: none;
+    margin: 5px;
+}
+
+.menus button:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+.news-img-size {
+    max-width: 100%;
+    max-height: 240px;
+}
+
+.news {
+    border-bottom: 2px solid black;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: lightgoldenrodyellow;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav button {
+    margin: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    background: none;
+    border: none;
+}
+
+.sidenav button:hover {
+    color: wheat;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.side-menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.disabled{
+    visibility: hidden !important;
+}
+
+@media screen and (max-width: 63rem) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav button {
+        font-size: 18px;
+    }
+
+    .head-button i:first-child{
+        display: inline;
+    }
+
+
+}
